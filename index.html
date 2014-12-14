@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Our Adaptable Shopping List -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+
+				<!-- Shopping List content begins -->
+				<div id="page">
+			      <h1 id="header">List</h1>
+			      <h2>Our Shopping List<span id="counter"></span></h2>
+			      <ul>
+			        <li id="one" class="hot"><em>fresh</em> figs</li>
+			        <li id="two" class="hot">pine nuts</li>
+			        <li id="three" class="hot">honey</li>
+			        <li id="four">balsamic vinegar</li>
+			      </ul>
+			      <div id="newItemButton"><button href="#" id="showForm">new item</button></div>
+			      <form id="newItemForm">
+			        <input type="text" id="itemDescription" placeholder="Add description" />
+			        <input type="submit" id="add" value="add" />
+			      </form>
+			    </div>
+			   <!-- Shopping List content ENDS -->
+
+			</div>
+		</div>
+	</div>
+	
+	<script src="node_modules/jQuery/tmp/jquery.js"></script>
+	<script src="custom.js"></script>
+</body>
+</html>
